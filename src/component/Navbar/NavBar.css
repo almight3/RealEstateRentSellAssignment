@@ -1,0 +1,21 @@
+:root{
+    --primary-color:#6164f7;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid grey
+}
+.nav-bar li{
+    list-style: none;   
+    margin: 1rem; 
+}
+.nav-bar-link{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 500;
+    color: var(--primary-color);
+}
