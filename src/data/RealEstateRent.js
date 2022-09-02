@@ -1,4 +1,4 @@
-const realEstateRent = [
+[       
        {  
           "property_id": "R9758479339",
           "address" : {
