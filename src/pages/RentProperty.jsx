@@ -1,8 +1,10 @@
 import React from 'react'
-
+import FilterProperty from '../component/FilterProperty/FilterProperty'
 function RentProperty() {
   return (
-    <div>RentProperty</div>
+    <div>
+         <FilterProperty />
+    </div>
   )
 }
 
