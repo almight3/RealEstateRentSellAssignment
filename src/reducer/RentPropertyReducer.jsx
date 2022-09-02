@@ -1,9 +1,6 @@
-import React from 'react'
+export const rentPropertyData = ()=>{
 
-function RentPropertyReducer() {
-  return (
-    <div>RentPropertyReducer</div>
-  )
 }
+export const filterRentProperty = () =>{
 
-export default RentPropertyReducer
+}
