@@ -6,16 +6,18 @@ import {
 } from "react-router-dom";
 import RentProperty from "./pages/RentProperty"
 import FavouriteProperty from "./pages/FavouriteProperty"
-
+import ContextProvider from './context/ContextProvider';
 import NavBar from "./component/Navbar/NavBar"
 function App() {
   return (
     <BrowserRouter>
+    <ContextProvider>
     <NavBar />
     <Routes>
         <Route path="/rent" element={<RentProperty />} />
         <Route path="/favourite" element={<FavouriteProperty />} />
-    </Routes>  
+    </Routes>
+    </ContextProvider>  
     </BrowserRouter>
   )
 }
