@@ -1,0 +1,15 @@
+.filter-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width:80vw;
+    height: 10vh;
+    margin: 0.5rem;
+}
+
+.filter-property{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
