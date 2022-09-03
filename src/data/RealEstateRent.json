@@ -566,7 +566,7 @@
   "prop_type": "Apartment",
   "baths_full": "1",
   "beds": "2",
-  "image":"https://www.realtor.com/realestateandhomes-detail/3721-N-Hall-St_Dallas_TX_75219_M71715-48315",
+  "image":"",
   "move_in_date": {
     "required": "false",
     "default_date": "2022-10-01T12:00:00Z",

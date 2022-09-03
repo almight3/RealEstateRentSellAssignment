@@ -4,7 +4,7 @@ export const rentPropertyData = (state,action)=>{
             return {...state,favourite:[...state.favourite,{...action.payload}]}
         }
         case "REMOVE_FROM_FAVOURITE":{
-            return {...state,favourite:state.favourite.filter((p)=>p.id!=action.payload.id)}
+            return {...state,favourite:state.favourite.filter((p)=>p.property_id!=action.payload.id)}
         }
         default:
             return state;
@@ -20,7 +20,7 @@ export const filterRentProperty = (state,action) =>{
             return{...state,byPrice:action.payload}
         }
         case"FILTER_BY_PROPERTY":{
-            return{...state,byProperty:action.payload}
+            return{...state,byPropertyType:action.payload}
         }
         case"FILTER_BY_MOVE_IN_DATE":{
             return{...state,byMoveInDate:action.payload}

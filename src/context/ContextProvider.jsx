@@ -3,11 +3,12 @@ import data from "../data/RealEstateRent"
 import { rentPropertyData,filterRentProperty } from '../reducer/RentPropertyReducer';
 export const Context = React.createContext(); 
 function ContextProvider({children}) {
-  console.log(data);  
+  console.log(data[0].address.neighborhood_name);  
   const [rentState,rentDispatch] = useReducer(rentPropertyData,{
    rentProperty:data,
    favourite:[]
   })
+  console.log(rentState.favourite)
   const [filterState,filterDispatch] = useReducer(filterRentProperty,{
     byLocation:"",
     byPrice:"",
@@ -15,9 +16,11 @@ function ContextProvider({children}) {
     byMoveInDate:"",
     bySearchQueary:""
   })
+  console.log(filterState)
+
 
   return (
-    <Context.Provider>
+    <Context.Provider value={{rentState,rentDispatch,filterState,filterDispatch}}>
       {children}
     </Context.Provider>
   )
