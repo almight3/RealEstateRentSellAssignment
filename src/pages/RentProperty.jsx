@@ -10,12 +10,7 @@ function RentProperty() {
  const [rentProperty,setRentProperty] = useState(data) 
  const {rentState,filterState} = useContext(Context);
  const {byLocation,byPrice,byPropertyType} = filterState;
- const [page,setPage] = useState({}); 
-
-//  useEffect(()=>{
-//   setRentProperty(data)
-// },[page])
- console.log(rentProperty.length,page)
+ const [page,setPage] = useState(0); 
 
  //paginantion
  const pageCount  = Math.ceil(rentProperty && (rentProperty.length / 6));
@@ -64,4 +59,4 @@ function filterRentProperty(){
   )
 }
 
-export default RentProperty
+export default RentProperty;
