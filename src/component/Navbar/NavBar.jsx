@@ -5,7 +5,6 @@ import Logo from "../../Assets/logo.png"
 function NavBar() {
   return (
     <div className="nav-bar">
-       
         <li>
         <NavLink className ="nav-bar-link" to="/rent">Rent
         </NavLink>

@@ -78,9 +78,9 @@ const handleClearFilter = ()=>{
         <div className="filter-property">
         <label className="filter-label">Price</label>
         <select className="filter-select"  onClick={(e)=>{setFilter({...filter,priceRange:e.target.value})}}>
-            <option>$500-$1500</option>
-            <option>$1500-$3000</option>
-            <option>$3000-$5000</option>
+            <option value="500-1500">$500-$1500</option>
+            <option value="1500-3000">$1500-$3000</option>
+            <option value="3000-5000">$3000-$5000</option>
           </select>
         </div>
         <div className="filter-property">
