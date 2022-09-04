@@ -1,26 +1,26 @@
 .property-container{
-    max-width: 80vw;
+    max-width: 60vw;
     margin:auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-between;
 }
-.header-container{
-    max-width:75vw;
+.search-container{
+    max-width:80vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     margin: 2rem auto 1rem;
-
 }
+
 input{
     height:1rem;
-    padding:0.4rem ;
-    border-radius:10px;
-    border-style: 1px solid grey;
+    padding:0.6rem ;
+    border-radius:5px;
+    border: none;
 }
 input:focus{
     outline: none;

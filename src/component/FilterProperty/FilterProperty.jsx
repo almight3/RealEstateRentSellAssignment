@@ -4,6 +4,7 @@ import {Context} from "../../context/ContextProvider";
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import { format,parseISO } from 'date-fns'
+import {BsFillCalendarDateFill} from "react-icons/bs"
 
 function FilterProperty({pageDefault}) {
   const {filterDispatch} = useContext(Context);
@@ -57,39 +58,43 @@ const handleClearFilter = ()=>{
   return (
     <div className="filter-container">
         <div className="filter-property">
-          <label>Location</label>
-          <select onClick={(e)=>{setFilter({...filter,location:e.target.value})}} >
+          <label className="filter-label">Location</label>
+          <select className="filter-select"  onClick={(e)=>{setFilter({...filter,location:e.target.value})}} >
             <option value="NY">NewYork,USA</option>
             <option value="TX">Texas,USA</option>
             <option value="CA">California,USA</option>
           </select>
         </div>
         <div>
+        <label className="filter-label">When</label>
           <DatePicker 
             selected={moveInDate==null ? currDate:moveInDate}
             onChange= {(date)=>{setMoveInDate(date)}}
             minDate={manimumDaysFromToday}
             maxDate={maximuDaysFromToday}
+            render={<BsFillCalendarDateFill />}
           />
         </div>
         <div className="filter-property">
-        <label>Price</label>
-        <select onClick={(e)=>{setFilter({...filter,priceRange:e.target.value})}}>
-            <option>500-1500</option>
-            <option>1500-3000</option>
-            <option>3000-5000</option>
+        <label className="filter-label">Price</label>
+        <select className="filter-select"  onClick={(e)=>{setFilter({...filter,priceRange:e.target.value})}}>
+            <option>$500-$1500</option>
+            <option>$1500-$3000</option>
+            <option>$3000-$5000</option>
           </select>
         </div>
         <div className="filter-property">
-        <label>Property</label>
-        <select oonClick={(e)=>{setFilter({...filter,propertyType:e.target.value})}} >
+        <label className="filter-label">Property</label>
+        <select className="filter-select" onClick={(e)=>{setFilter({...filter,propertyType:e.target.value})}} >
             <option>House</option>
             <option>Apartment</option>
             <option>Condo</option>
           </select>
         </div>
-        <button onClick={()=>handleSubmit()}>Search</button>
-        <button onClick={()=>{handleClearFilter()}}>clear filter</button>
+        <div>
+        <button className="filter-button" onClick={()=>handleSubmit()}>Search</button>
+        </div>
+        {/* <button onClick={()=>{handleClearFilter()}}>clear filter</button> */}
     </div>
   )
 }

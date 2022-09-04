@@ -1,4 +1,4 @@
-import React,{useContext,useState,useEffect} from 'react';
+import React,{useContext,useState} from 'react';
 import FilterProperty from '../component/FilterProperty/FilterProperty';
 import SingleCard from '../component/SingleCard/SingleCard';
 import {Context} from "../context/ContextProvider";
@@ -7,52 +7,62 @@ import data from "../data/RealEstateRent.json"
 import "./page.css"
 
 function RentProperty() {
- const [rentProperty,setRentProperty] = useState(data) 
- const {rentState,filterState} = useContext(Context);
- const {byLocation,byPrice,byPropertyType} = filterState;
+ const [rentProperty] = useState(data) 
+ const {filterState} = useContext(Context);
+ const {byLocation,byPrice,byPropertyType,byMoveInDate} = filterState;
  const [page,setPage] = useState(0); 
 
- //paginantion
- const pageCount  = Math.ceil(rentProperty && (rentProperty.length / 6));
- const handelChange = ({selected}) =>{
-    setPage(selected)
-    console.log("rerender",selected)
- }
+ 
 
 //filtering rent property 
 function filterRentProperty(){
   let filterRentProperty = rentProperty;
-
+  
   if(byLocation){  
   filterRentProperty = filterRentProperty.filter((property)=>property.address.state_code===byLocation)
   }
+  
+  
   if(byPrice){
   let sortByPrice = byPrice;
   sortByPrice = sortByPrice.split('-');
   filterRentProperty = filterRentProperty.filter((f)=>(f.price>=parseInt(sortByPrice[0]) && f.price <= parseInt(sortByPrice[1])))
   .sort((a,b)=>(a.price -b.price));
   }
+  
   if(byPropertyType){
   filterRentProperty = filterRentProperty.filter((property)=>property.prop_type===byPropertyType);  
   }
-  //property to show per page 
-  const propertyPerPage = 6;
-  const pageVisited = page  * propertyPerPage;
-  console.log(filterRentProperty.slice(pageVisited,pageVisited + propertyPerPage))
-  let rentPropertyData = filterRentProperty.slice(pageVisited,pageVisited + propertyPerPage)
-  return rentPropertyData;
-}  
+  
+  
+  if(byMoveInDate){
+  filterRentProperty = filterRentProperty.filter((property)=>property.move_in_date>=byMoveInDate)
+  }
 
+  //property to show per page 
+  
+  
+  return filterRentProperty;
+}  
+//paginantion
+const propertyPerPage = 6;  
+const pageVisited = page  * propertyPerPage;
+let rentPropertyData = filterRentProperty();
+const pageCount  = Math.ceil(rentPropertyData && (rentPropertyData.length / 6));
+const handelChange = ({selected}) =>{
+   setPage(selected)
+   console.log("rerender",selected)
+}
 
   return (
     <div>
-         <div className="header-container">
+         <div className="search-container">
             <h1>Search properties to rent</h1>
             <input placeholder="search by brand name"/>
          </div>
-         <FilterProperty />
+         <FilterProperty pageDefault={setPage}/>
          <div className="property-container">
-         {filterRentProperty().map((property)=>(<SingleCard property={property} />))}
+         {filterRentProperty().slice(pageVisited,pageVisited+propertyPerPage).map((property)=>(<SingleCard property={property} />))}
          </div>
          <Pagination  pageCount={pageCount} pageChange={handelChange}/>
     </div>

@@ -1,15 +1,41 @@
 .filter-container{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    width:80vw;
+    width:60vw;
     height: 10vh;
-    margin: 0.5rem;
+    background-color:white;
+    margin: auto;
 }
 
 .filter-property{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.filter-label{
+    color:#9ca3af;
+    font-size:small;
+    font-weight: 500;
+    padding: 0rem 0.7rem;
+}
+.filter-select{
+    padding: 0.2rem 0.4rem;
+    border: none;
+    font-size: small;
+    font-weight: 600;
+}
+.filter-select:focus{
+    outline: none;
+}
+.filter-button{
+    background-color: #6164f7;
+    color: white;
+    border:none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    
 }

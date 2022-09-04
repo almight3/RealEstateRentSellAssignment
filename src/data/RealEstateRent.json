@@ -23,12 +23,7 @@
         "beds": "3",
         "prop_type": "House",
         "image":"https://ap.rdcpix.com/8d2504db2f354233f520e28bc1847bbcl-m1944522908od-w480_h360_x2.webp",
-        "move_in_date": {
-          "required": "false",
-          "default_date": "2022-10-01T12:00:00Z",
-          "minimum_days_from_today": "1",
-          "maximum_days_from_today": "180"
-        }
+        "move_in_date": ""
       },
       {
         "property_id": "3307577229",
@@ -55,12 +50,7 @@
         "beds": "4",
         "prop_type": "House",
         "image":"https://ap.rdcpix.com/9a7374c40e93abb2e8bcc470b093cf3dl-m2328864387od-w1024_h768_x2.webp",
-        "move_in_date": {
-          "required": "false",
-          "default_date": "2022-10-01T12:00:00Z",
-          "minimum_days_from_today": "1",
-          "maximum_days_from_today": "180"
-        }
+        "move_in_date": ""
     },
     {
         "property_id": "R4809842606",
@@ -87,12 +77,7 @@
         "baths_full": "3",
         "beds": "2",
         "image":"https://ap.rdcpix.com/ed4356706165d2f03b70156975ca5fa6l-m1009525657od-w480_h360_x2.webp",
-        "move_in_date": {
-          "required": "false",
-          "default_date": "2022-10-01T12:00:00Z",
-          "minimum_days_from_today": "1",
-          "maximum_days_from_today": "180"
-        }
+        "move_in_date": ""
     },
     {
       "property_id": "R3952101210",
@@ -118,13 +103,7 @@
     "baths_full": "3",
     "beds": "2",
     "image":"https://ap.rdcpix.com/08ebf85df0dbe54070b77d044c4efcccl-m1681341127od-w480_h360_x2.webp",
-    "move_in_date": {
-      "required": "false",
-      "default_date": "2022-10-01T12:00:00Z",
-      "minimum_days_from_today": "1",
-      "maximum_days_from_today": "180"
-    }
-    
+    "move_in_date":""
    },
    {
     "property_id": "R9392782775",
@@ -151,12 +130,7 @@
     "baths_full": "1",
     "beds": "1",
     "image":"https://ar.rdcpix.com/d4b51bde41061cd9525e7496c5830001c-f3347252048od-w1024_h768_x2.webp",
-    "move_in_date": {
-      "required": "false",
-      "default_date": "2022-10-01T12:00:00Z",
-      "minimum_days_from_today": "1",
-      "maximum_days_from_today": "180"
-    }
+    "move_in_date":""
    
   },
   {
@@ -184,12 +158,7 @@
     "baths_full": "2",
     "beds": "2",
     "image":"https://ar.rdcpix.com/6e9618abb9cb6bae531d7e0601162108c-f163170089od-w1024_h768_x2.webp",
-    "move_in_date": {
-      "required": "false",
-      "default_date": "2022-10-01T12:00:00Z",
-      "minimum_days_from_today": "1",
-      "maximum_days_from_today": "180"
-    }
+    "move_in_date":""
   },
   {
     "property_id": "R9617397300",
@@ -216,12 +185,7 @@
     "baths_full": "2",
     "beds": "3",
     "image":"https://ar.rdcpix.com/f64ad206ede2bc7c6a9d26129565ce9bc-f2309092418od-w480_h360_x2.webp",
-    "move_in_date": {
-      "required": "false",
-      "default_date": "2022-10-01T12:00:00Z",
-      "minimum_days_from_today": "1",
-      "maximum_days_from_today": "180"
-    }
+    "move_in_date":""
   },
   {
     "property_id": "R3219897648",
@@ -248,12 +212,7 @@
     "baths_full": "2",
     "beds": "2",
     "image":"https://ap.rdcpix.com/6b4a13adc441b57b354d35d770439807l-m1944171056od-w1024_h768_x2.webp",
-    "move_in_date": {
-      "required": "false",
-      "default_date": "2022-10-01T12:00:00Z",
-      "minimum_days_from_today": "1",
-      "maximum_days_from_today": "180"
-    }
+    "move_in_date":""
   },
   {
     "property_id": "R9596424482",
@@ -279,12 +238,7 @@
     "baths_full": "3",
     "beds": "3",
     "image":"https://ap.rdcpix.com/6b4a13adc441b57b354d35d770439807l-m1944171056od-w1024_h768_x2.webp",
-    "move_in_date": {
-      "required": "false",
-      "default_date": "2022-10-01T12:00:00Z",
-      "minimum_days_from_today": "1",
-      "maximum_days_from_today": "180"
-    }
+    "move_in_date":""
   }
 },
   {
@@ -312,12 +266,7 @@
     "baths_full": "1",
     "beds": "1",
     "image":"https://ap.rdcpix.com/fd64e2cde5dccba7af960fb7d79714f6l-m3326127481od-w480_h360_x2.webp",
-    "move_in_date": {
-      "required": "false",
-      "default_date": "2022-10-01T12:00:00Z",
-      "minimum_days_from_today": "1",
-      "maximum_days_from_today": "180"
-    }
+    "move_in_date":""
   },
   {  
     "property_id": "R7823721721",
@@ -344,12 +293,7 @@
   "beds": "3",
   "prop_type": "House",
   "image":"https://ar.rdcpix.com/89871cb99828725b1e8fb4c78eefa964c-f2766866113od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {  
   "property_id": "R7064623521",
@@ -376,12 +320,7 @@
       "beds": "2",
       "prop_type": "House",
       "image":"https://ar.rdcpix.com/89871cb99828725b1e8fb4c78eefa964c-f2766866113od-w1024_h768_x2.webp",
-      "move_in_date": {
-        "required": "false",
-        "default_date": "2022-10-01T12:00:00Z",
-        "minimum_days_from_today": "1",
-        "maximum_days_from_today": "180"
-      }
+      "move_in_date":""
 },
 {  
   "property_id": "R7616715647",
@@ -408,12 +347,7 @@
     "beds": "2",
     "prop_type": "House",
     "image":"https://ap.rdcpix.com/03abcf8f553fa6c32275ee6fd02cfe92l-m485646185od-w1024_h768_x2.webp",
-    "move_in_date": {
-      "required": "false",
-      "default_date": "2022-10-01T12:00:00Z",
-      "minimum_days_from_today": "1",
-      "maximum_days_from_today": "180"
-}
+    "move_in_date":""
 },
 {  
   "property_id": "R7116221412",
@@ -440,12 +374,7 @@
     "beds": "4",
     "prop_type": "House",
     "image":"https://ap.rdcpix.com/9b7a3ca15f62a51fc33ed43a536bb684l-m1851138023od-w1024_h768_x2.webp",
-    "move_in_date": {
-      "required": "false",
-      "default_date": "2022-10-01T12:00:00Z",
-      "minimum_days_from_today": "1",
-      "maximum_days_from_today": "180"
- }
+    "move_in_date":""
 },
 {
   "property_id": "R7676305844",
@@ -471,12 +400,7 @@
   "baths_full": "2",
   "beds": "3",
   "image":"https://ar.rdcpix.com/d4b51bde41061cd9525e7496c5830001c-f3347252048od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R9236978680",
@@ -503,12 +427,7 @@
   "baths_full": "2",
   "beds": "2",
   "image":"https://ar.rdcpix.com/daa1f47a159f55a49c256faa58b5c09ac-f1975118851od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R9236978680",
@@ -535,12 +454,7 @@
   "baths_full": "2",
   "beds": "2",
   "image":"https://ar.rdcpix.com/daa1f47a159f55a49c256faa58b5c09ac-f1975118851od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R7171548315",
@@ -567,12 +481,7 @@
   "baths_full": "1",
   "beds": "2",
   "image":"",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R8965400950",
@@ -599,12 +508,7 @@
   "baths_full": "2",
   "beds": "3",
   "image":"https://ar.rdcpix.com/eeaf9b663345145efb7dceb7f998729dc-f1636140228od-w480_h360_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R8958533655",
@@ -631,12 +535,7 @@
   "baths_full": "4",
   "beds": "3",
   "image":"https://ap.rdcpix.com/7cba129162f595b53b943cca72fe4963l-m4286606525od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R9139223891",
@@ -663,12 +562,7 @@
   "baths_full": "2",
   "beds": "2",
   "image":"https://ap.rdcpix.com/dc20d44ac49e33ee5d0fded9d590c162l-m645658456od-w480_h360_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R9471915026",
@@ -695,12 +589,7 @@
   "baths_full": "3",
   "beds": "3",
   "image":"https://ap.rdcpix.com/76934bb9441bb73d3e3dd3fbe1bb1434l-m3463145246od-w480_h360_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R9401246123",
@@ -727,12 +616,7 @@
   "baths_full": "1",
   "beds": "2",
   "image":"https://ap.rdcpix.com/c9640ded747eb4efa14cdba60f521a98l-m3244592511od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R1737737545",
@@ -759,12 +643,7 @@
   "baths_full": "1",
   "beds": "2",
   "image":"https://ap.rdcpix.com/5ca9725ced89cf1f62dbbf092f936286l-m3725973674od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R2652546334",
@@ -791,12 +670,7 @@
   "baths_full": "3",
   "beds": "4",
   "image":"https://ap.rdcpix.com/3eeea5f6a09247fbc98b43596c02447cl-m3040870230od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R9333245547",
@@ -823,12 +697,7 @@
   "baths_full": "1",
   "beds": "2",
   "image":"https://ar.rdcpix.com/14897ab0253cc103f6c77c7896326454c-f4174388899od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":""
 },
 {
   "property_id": "R9863983789",
@@ -855,12 +724,7 @@
   "baths_full": "1",
   "beds": "2",
   "image":"https://ar.rdcpix.com/32cf4b158cd289193dc536be1ac23c9bc-f2413423786od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":"09/26/2022"
 },
 
 {
@@ -888,12 +752,7 @@
   "baths_full": "2",
   "beds": "2",
   "image":"https://ar.rdcpix.com/9b892df7430de861b7a8dd356b0c73edc-f2852074352od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":"09/26/2022"
 },
 {
   "property_id": "R1535893917",
@@ -919,12 +778,7 @@
   "baths_full": "2",
   "beds": "2",
   "image":"https://ar.rdcpix.com/9e71d6e69f3daef08a811efbb239ebbec-f34650729od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":"09/24/2022"
 },
 {
   "property_id": "R9144639510",
@@ -951,12 +805,7 @@
   "baths_full": "3",
   "beds": "4",
   "image":"https://ap.rdcpix.com/ccf4e2c65c9fc7c8bc883eeb9aad7507l-m2636751545od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":"09/26/2022"
 },
 {
   "property_id": "R9639350372",
@@ -983,12 +832,7 @@
   "baths_full": "3",
   "beds": "4",
   "image":"https://ap.rdcpix.com/af0a54ebe293db478a0a4b22cd8be3aal-m738442818od-w1024_h768_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-  }
+  "move_in_date":"09/24/2022"
 },
 {
   "property_id": "R1382675224",
@@ -1015,12 +859,7 @@
   "baths_full": "1",
   "beds": "1",
   "image":"https://ap.rdcpix.com/dc0b1c54a5bb3789f11ded0e98f6e0b1l-m3328002027od-w480_h360_x2.webp",
-  "move_in_date": {
-    "required": "false",
-    "default_date": "2022-10-01T12:00:00Z",
-    "minimum_days_from_today": "1",
-    "maximum_days_from_today": "180"
-   }
+  "move_in_date":"09/24/2022"
   }
  ]
 

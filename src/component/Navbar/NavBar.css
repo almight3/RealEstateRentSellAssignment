@@ -1,5 +1,6 @@
 :root{
     --primary-color:#6164f7;
+    background-color: #eef2ff;
 }
 
 .nav-bar{
@@ -7,15 +8,22 @@
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    border: 1px solid grey
+    border-bottom: 1px solid #e0e7ff;
+
 }
 .nav-bar li{
     list-style: none;   
-    margin: 1rem; 
+    margin: 1rem 0.2rem 1rem 4rem;
+    padding: 0.3rem 
 }
 .nav-bar-link{
     text-decoration: none;
     font-size: medium;
     font-weight: 500;
+    color: black;
+    padding: 0.3rem 0.6rem;
+}
+.active{
     color: var(--primary-color);
+    background-color:#e0e7ff;
 }
