@@ -18,6 +18,7 @@ function App() {
         <Route path="/"  element={<Navigate to="/rent" />} />
         <Route path="/rent" element={<RentProperty />} />
         <Route path="/favourite" element={<FavouriteProperty />} />
+        <Route path="*"  element={<Navigate to="/rent" />} />
     </Routes>
     </ContextProvider>  
     </BrowserRouter>
