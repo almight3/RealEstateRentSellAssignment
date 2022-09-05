@@ -65,7 +65,7 @@ const handelChange = ({selected}) =>{
          <SearchFilter pageDefault={setPage} />
          <FilterProperty pageDefault={setPage}/>
          <div className="property-container">
-         {filterRentProperty().slice(pageVisited,pageVisited+propertyPerPage).map((property)=>(<SingleCard property={property} />))}
+         {filterRentProperty().length===0 ?<div><p className="property-notfound">Property you looking for is not found</p></div> : filterRentProperty().slice(pageVisited,pageVisited+propertyPerPage).map((property)=>(<SingleCard property={property} />))}
          </div>
          <Pagination  pageCount={pageCount} pageChange={handelChange}/>
     </div>

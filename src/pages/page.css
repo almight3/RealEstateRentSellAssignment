@@ -25,3 +25,8 @@ h1{
 h4{
    margin-left: 10rem;
 }
+.property-notfound{
+    margin: 2rem;
+    font-size: 25px;
+    color: black;
+}
