@@ -3,6 +3,7 @@ import {
   BrowserRouter,
   Routes,
   Route,
+  Navigate
 } from "react-router-dom";
 import RentProperty from "./pages/RentProperty"
 import FavouriteProperty from "./pages/FavouriteProperty"
@@ -14,6 +15,7 @@ function App() {
     <ContextProvider>
     <NavBar />
     <Routes>
+        <Route path="/"  element={<Navigate to="/rent" />} />
         <Route path="/rent" element={<RentProperty />} />
         <Route path="/favourite" element={<FavouriteProperty />} />
     </Routes>
