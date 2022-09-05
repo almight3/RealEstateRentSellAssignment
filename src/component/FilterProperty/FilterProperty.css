@@ -37,5 +37,20 @@
     border:none;
     padding: 0.6rem 1.2rem;
     border-radius: 8px;
+    cursor: pointer;
     
+}
+.clear-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 55%;
+    margin: auto;
+    padding: 0.5rem;
+}
+.clear-filter li{
+    list-style: none;
+    border-bottom:1px solid #6164f7;
+    cursor:pointer;
+
 }
