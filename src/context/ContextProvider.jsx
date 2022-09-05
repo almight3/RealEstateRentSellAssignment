@@ -13,7 +13,7 @@ function ContextProvider({children}) {
     byPrice:"",
     byPropertyType:"",
     byMoveInDate:"",
-    bySearchQueary:""
+    bySearchQuery:""
   })
   console.log(filterState)
 

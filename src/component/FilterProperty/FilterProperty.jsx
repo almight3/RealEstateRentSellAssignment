@@ -52,9 +52,7 @@ const handleClearFilter = ()=>{
    })
    setMoveInDate(null)
 }
-// console.log(format(moveInDate,'MM/dd/yyyy'))
     
-
   return (
     <div>
       <div className="clear-filter"><li onClick={()=>{handleClearFilter()}}>clear filter</li></div>

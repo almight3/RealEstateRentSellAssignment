@@ -40,7 +40,7 @@ export const filterRentProperty = (state,action) =>{
                 byPrice:"",
                 byPropertyType:"",
                 byMoveInDate:"",
-                bySearchQueary:""
+                bySearchQuery:""
             }
         }
         default:

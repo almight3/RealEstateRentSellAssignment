@@ -1,5 +1,6 @@
 [       
        {  
+          "name":"Coldwell Banker Quality",
           "property_id": "R9758479339",
           "address" : {
             "city": "Rosedale",
@@ -23,10 +24,11 @@
         "beds": "3",
         "prop_type": "House",
         "image":"https://ap.rdcpix.com/8d2504db2f354233f520e28bc1847bbcl-m1944522908od-w480_h360_x2.webp",
-        "move_in_date": ""
+        "move_in_date": "9/12/2022"
       },
       {
-        "property_id": "3307577229",
+        "name":"The Beverly Hills",
+           "property_id": "3307577229",
         "address": {
             "city": "Bellerose",
             "country": "USA",
@@ -50,10 +52,11 @@
         "beds": "4",
         "prop_type": "House",
         "image":"https://ap.rdcpix.com/9a7374c40e93abb2e8bcc470b093cf3dl-m2328864387od-w1024_h768_x2.webp",
-        "move_in_date": ""
+        "move_in_date": "9/12/2022"
     },
     {
-        "property_id": "R4809842606",
+        "name":"Rodeo Realty",
+         "property_id": "R4809842606",
         "address": {
             "city": "Bellerose",
             "country": "USA",
@@ -77,10 +80,11 @@
         "baths_full": "3",
         "beds": "2",
         "image":"https://ap.rdcpix.com/ed4356706165d2f03b70156975ca5fa6l-m1009525657od-w480_h360_x2.webp",
-        "move_in_date": ""
+        "move_in_date": "9/12/2022"
     },
     {
-      "property_id": "R3952101210",
+      "name":"Coldwell Banker Quality",
+         "property_id": "R3952101210",
       "address" : {
         "city":"Maspeth",
         "country":"USA",
@@ -103,10 +107,11 @@
     "baths_full": "3",
     "beds": "2",
     "image":"https://ap.rdcpix.com/08ebf85df0dbe54070b77d044c4efcccl-m1681341127od-w480_h360_x2.webp",
-    "move_in_date":""
+    "move_in_date":"10/12/2022"
    },
    {
-    "property_id": "R9392782775",
+    "name":"The Beverly Hills",
+       "property_id": "R9392782775",
     "address" : {
       "city": "Brooklyn",
       "country": "USA",
@@ -134,7 +139,8 @@
    
   },
   {
-    "property_id": "R9278405919",
+    "name":"Perriott Partners",
+       "property_id": "R9278405919",
     "address" : {
         "city": "Brooklyn",
         "country": "USA",
@@ -158,10 +164,11 @@
     "baths_full": "2",
     "beds": "2",
     "image":"https://ar.rdcpix.com/6e9618abb9cb6bae531d7e0601162108c-f163170089od-w1024_h768_x2.webp",
-    "move_in_date":""
+    "move_in_date":"10/12/2022"
   },
   {
-    "property_id": "R9617397300",
+    "name":"The Beverly Hills",
+       "property_id": "R9617397300",
     "address" : {
       "city": "New York",
       "country": "USA",
@@ -188,7 +195,8 @@
     "move_in_date":""
   },
   {
-    "property_id": "R3219897648",
+    "name":"Manor Real Estate",
+       "property_id": "R3219897648",
     "address" : {
       "city": "New York",
       "country": "USA",
@@ -214,35 +222,11 @@
     "image":"https://ap.rdcpix.com/6b4a13adc441b57b354d35d770439807l-m1944171056od-w1024_h768_x2.webp",
     "move_in_date":""
   },
+  
+
   {
-    "property_id": "R9596424482",
-    "address" : {
-      "city": "Brooklyn",
-      "country": "USA",
-      "county": "Kings",
-      "county_needed_for_uniq": "false",
-      "lat": "40.65160",
-      "line": "61 Martense St Apt 1A",
-      "postal_code": "11226",
-      "state_code": "NY",
-      "state": "New York",
-      "time_zone": "America/New_York",
-      "neighborhood_name": "Flatbus",
-    "building_size": {
-      "size":"1330",
-      "units":"sqft"
-    },
-    "price":"4150",
-    "prop_status": "for_rent",
-    "prop_type": "Condo",
-    "baths_full": "3",
-    "beds": "3",
-    "image":"https://ap.rdcpix.com/6b4a13adc441b57b354d35d770439807l-m1944171056od-w1024_h768_x2.webp",
-    "move_in_date":""
-  }
-},
-  {
-    "property_id": "R3456859703",
+    "name":"Manor Real Estate",
+       "property_id": "R3456859703",
     "address" : {
       "city": "New York",
       "country": "USA",
@@ -269,7 +253,8 @@
     "move_in_date":""
   },
   {  
-    "property_id": "R7823721721",
+    "name":"Perriott Partners",
+     "property_id": "R7823721721",
     "address" : {
       "city": "Texas City",
       "country": "USA",
@@ -293,10 +278,11 @@
   "beds": "3",
   "prop_type": "House",
   "image":"https://ar.rdcpix.com/89871cb99828725b1e8fb4c78eefa964c-f2766866113od-w1024_h768_x2.webp",
-  "move_in_date":""
+  "move_in_date":"10/27/2022"
 },
 {  
-  "property_id": "R7064623521",
+  "name":"Sotheby's International Realty",
+   "property_id": "R7064623521",
   "address" : {
     "city": "Texas City",
     "country": "USA",
@@ -320,10 +306,11 @@
       "beds": "2",
       "prop_type": "House",
       "image":"https://ar.rdcpix.com/89871cb99828725b1e8fb4c78eefa964c-f2766866113od-w1024_h768_x2.webp",
-      "move_in_date":""
+      "move_in_date":"10/27/2022"
 },
 {  
-  "property_id": "R7616715647",
+  "name":"Rodeo Realty",
+   "property_id": "R7616715647",
   "address" : {
     "city": "Austin",
     "country": "USA",
@@ -350,7 +337,8 @@
     "move_in_date":""
 },
 {  
-  "property_id": "R7116221412",
+  "name":"Manor Real Estate",
+   "property_id": "R7116221412",
   "address" : {
     "city": "Houston",
     "country": "USA",
@@ -374,16 +362,18 @@
     "beds": "4",
     "prop_type": "House",
     "image":"https://ap.rdcpix.com/9b7a3ca15f62a51fc33ed43a536bb684l-m1851138023od-w1024_h768_x2.webp",
-    "move_in_date":""
+    "move_in_date":"10/27/2022"
 },
 {
-  "property_id": "R7676305844",
+  "name":"Perriott Partners",
+     "property_id": "R7676305844",
   "address" : {
     "city": "Houston",
     "country": "USA",
     "county": "Harris",
     "county_needed_for_uniq": "false",
-    "lat": "29.80674",    "line": "7901 Amelia Rd",
+    "lat": "29.80674",    
+    "line": "7901 Amelia Rd",
     "postal_code": "77055",
     "state_code": "TX",
     "state": "Texas",
@@ -403,7 +393,8 @@
   "move_in_date":""
 },
 {
-  "property_id": "R9236978680",
+  "name":"Sotheby's International Realty",
+     "property_id": "R9236978680",
   "address" : {
     "city": "Houston",
     "country": "USA",
@@ -427,10 +418,11 @@
   "baths_full": "2",
   "beds": "2",
   "image":"https://ar.rdcpix.com/daa1f47a159f55a49c256faa58b5c09ac-f1975118851od-w1024_h768_x2.webp",
-  "move_in_date":""
+  "move_in_date":"11/10/2022"
 },
 {
-  "property_id": "R9236978680",
+  "name":"Douglas Elliman - Brentwood",
+     "property_id": "R9236978680",
   "address" : {
     "city": "Houston",
     "country": "USA",
@@ -454,9 +446,10 @@
   "baths_full": "2",
   "beds": "2",
   "image":"https://ar.rdcpix.com/daa1f47a159f55a49c256faa58b5c09ac-f1975118851od-w1024_h768_x2.webp",
-  "move_in_date":""
+  "move_in_date":"11/10/2022"
 },
 {
+  "name":"Perriott Partners",
   "property_id": "R7171548315",
   "address" : {
     "city": "Dallas",
@@ -480,11 +473,12 @@
   "prop_type": "Apartment",
   "baths_full": "1",
   "beds": "2",
-  "image":"",
-  "move_in_date":""
+  "image":"https://ar.rdcpix.com/57975d02d715d8f8dcb227fb53d6dc27c-f1732900876od-w1024_h768_x2.webp",
+  "move_in_date":"11/10/2022"
 },
 {
-  "property_id": "R8965400950",
+  "name":"Sotheby's International Realty",
+     "property_id": "R8965400950",
   "address" : {
     "city": "Dallas",
     "country": "USA",
@@ -511,7 +505,8 @@
   "move_in_date":""
 },
 {
-  "property_id": "R8958533655",
+  "name":"Perriott Partners",
+     "property_id": "R8958533655",
   "address" : {
     "city": "Dallas",
     "country": "USA",
@@ -535,10 +530,11 @@
   "baths_full": "4",
   "beds": "3",
   "image":"https://ap.rdcpix.com/7cba129162f595b53b943cca72fe4963l-m4286606525od-w1024_h768_x2.webp",
-  "move_in_date":""
+  "move_in_date":"01/19/2022"
 },
 {
-  "property_id": "R9139223891",
+  "name":"Sotheby's International Realty",
+     "property_id": "R9139223891",
   "address" : {
     "city": "Dallas",
     "country": "USA",
@@ -562,10 +558,11 @@
   "baths_full": "2",
   "beds": "2",
   "image":"https://ap.rdcpix.com/dc20d44ac49e33ee5d0fded9d590c162l-m645658456od-w480_h360_x2.webp",
-  "move_in_date":""
+  "move_in_date":"01/19/2022"
 },
 {
-  "property_id": "R9471915026",
+  "name":"Douglas Elliman - Brentwood",
+     "property_id": "R9471915026",
   "address" : {
     "city": "Los Angeles",
     "country": "USA",
@@ -589,10 +586,11 @@
   "baths_full": "3",
   "beds": "3",
   "image":"https://ap.rdcpix.com/76934bb9441bb73d3e3dd3fbe1bb1434l-m3463145246od-w480_h360_x2.webp",
-  "move_in_date":""
+  "move_in_date":"01/19/2022"
 },
 {
-  "property_id": "R9401246123",
+  "name":"Rodeo Realty",
+     "property_id": "R9401246123",
   "address" : {
     "city": "Los Angeles",
     "country": "USA",
@@ -616,10 +614,11 @@
   "baths_full": "1",
   "beds": "2",
   "image":"https://ap.rdcpix.com/c9640ded747eb4efa14cdba60f521a98l-m3244592511od-w1024_h768_x2.webp",
-  "move_in_date":""
+  "move_in_date":"02/28/2022"
 },
 {
-  "property_id": "R1737737545",
+  "name":"Redfin Corporation",
+     "property_id": "R1737737545",
   "address" : {
     "city": "Los Angeles",
     "country": "USA",
@@ -646,7 +645,8 @@
   "move_in_date":""
 },
 {
-  "property_id": "R2652546334",
+  "name":"Douglas Elliman - Brentwood",
+     "property_id": "R2652546334",
   "address" : {
     "city": "San Francisco",
     "country": "USA",
@@ -670,10 +670,11 @@
   "baths_full": "3",
   "beds": "4",
   "image":"https://ap.rdcpix.com/3eeea5f6a09247fbc98b43596c02447cl-m3040870230od-w1024_h768_x2.webp",
-  "move_in_date":""
+  "move_in_date":"02/28/2022"
 },
 {
-  "property_id": "R9333245547",
+  "name":"Redfin Corporation",
+     "property_id": "R9333245547",
   "address" : {
     "city": "San Francisco",
     "country": "USA",
@@ -697,10 +698,11 @@
   "baths_full": "1",
   "beds": "2",
   "image":"https://ar.rdcpix.com/14897ab0253cc103f6c77c7896326454c-f4174388899od-w1024_h768_x2.webp",
-  "move_in_date":""
+  "move_in_date":"02/28/2022"
 },
 {
-  "property_id": "R9863983789",
+  "name":"Perriott Partners",
+     "property_id": "R9863983789",
   "address" : {
     "city": "San Francisco",
     "country": "USA",
@@ -728,7 +730,8 @@
 },
 
 {
-  "property_id": "R1611730110",
+  "name":"Douglas Elliman - Brentwood",
+     "property_id": "R1611730110",
   "address" : {
     "city": "Encino",
     "country": "USA",
@@ -755,7 +758,8 @@
   "move_in_date":"09/26/2022"
 },
 {
-  "property_id": "R1535893917",
+  "name":"Sotheby's International Realty",
+     "property_id": "R1535893917",
   "address" : {
     "city": "Tarzana",
     "country": "USA",
@@ -781,7 +785,8 @@
   "move_in_date":"09/24/2022"
 },
 {
-  "property_id": "R9144639510",
+  "name":"Douglas Elliman - Brentwood",
+     "property_id": "R9144639510",
   "address" : {
     "city": "Los Angeles",
     "country": "USA",
@@ -808,7 +813,8 @@
   "move_in_date":"09/26/2022"
 },
 {
-  "property_id": "R9639350372",
+  "name":"Coldwell Banker Quality",
+     "property_id": "R9639350372",
   "address" : {
     "city": "Los Angeles",
     "country": "USA",
@@ -835,7 +841,8 @@
   "move_in_date":"09/24/2022"
 },
 {
-  "property_id": "R1382675224",
+  "name":"Coldwell Banker Quality",
+     "property_id": "R1382675224",
   "address" : {
     "city": "San Francisco",
     "country": "USA",

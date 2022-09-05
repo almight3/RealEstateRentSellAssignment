@@ -29,7 +29,7 @@ function SingleCard({property}){
             }} /> }</span>
            
         </span>
-        <span className="title">{property.address.neighborhood_name}</span>
+        <span className="title">{property.hasOwnProperty('name')? (property.name):""}</span>
         
         <span className="address">{property.address.line},{property.address.city},{property.address.state_code}</span>
         <span className="property-details">

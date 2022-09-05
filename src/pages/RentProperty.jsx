@@ -4,12 +4,13 @@ import SingleCard from '../component/SingleCard/SingleCard';
 import {Context} from "../context/ContextProvider";
 import Pagination from  "../component/common/Pagination";
 import data from "../data/RealEstateRent.json"
+import SearchFilter from '../component/FilterProperty/SearchFilter';
 import "./page.css"
 
 function RentProperty() {
  const [rentProperty] = useState(data) 
  const {filterState} = useContext(Context);
- const {byLocation,byPrice,byPropertyType,byMoveInDate} = filterState;
+ const {byLocation,byPrice,byPropertyType,byMoveInDate,bySearchQuery} = filterState;
  const [page,setPage] = useState(0); 
 
  
@@ -36,12 +37,17 @@ function filterRentProperty(){
   
   
   if(byMoveInDate){
-  filterRentProperty = filterRentProperty.filter((property)=>property.move_in_date>=byMoveInDate)
+  filterRentProperty = filterRentProperty.filter((property)=>(property.move_in_date >= byMoveInDate))
+  }
+  
+  if(bySearchQuery){
+  filterRentProperty = filterRentProperty.filter((property)=>property.name.toLowerCase().includes(bySearchQuery.toLowerCase()))  
+
   }
 
-  //property to show per page 
   
   
+  console.log(filterRentProperty)
   return filterRentProperty;
 }  
 //paginantion
@@ -56,10 +62,7 @@ const handelChange = ({selected}) =>{
 
   return (
     <div>
-         <div className="search-container">
-            <h1>Search properties to rent</h1>
-            <input placeholder="search by brand name"/>
-         </div>
+         <SearchFilter pageDefault={setPage} />
          <FilterProperty pageDefault={setPage}/>
          <div className="property-container">
          {filterRentProperty().slice(pageVisited,pageVisited+propertyPerPage).map((property)=>(<SingleCard property={property} />))}
