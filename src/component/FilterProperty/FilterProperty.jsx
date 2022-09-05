@@ -3,7 +3,7 @@ import "./FilterProperty.css";
 import {Context} from "../../context/ContextProvider";
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
-import { format,parseISO } from 'date-fns'
+import { format } from 'date-fns'
 import {BsFillCalendarDateFill} from "react-icons/bs"
 
 function FilterProperty({pageDefault}) {
@@ -56,7 +56,9 @@ const handleClearFilter = ()=>{
     
 
   return (
-    <div className="filter-container">
+    <div>
+      <div className="clear-filter"><li onClick={()=>{handleClearFilter()}}>clear filter</li></div>
+      <div className="filter-container">
         <div className="filter-property">
           <label className="filter-label">Location</label>
           <select className="filter-select"  onClick={(e)=>{setFilter({...filter,location:e.target.value})}} >
@@ -94,7 +96,7 @@ const handleClearFilter = ()=>{
         <div>
         <button className="filter-button" onClick={()=>handleSubmit()}>Search</button>
         </div>
-        {/* <button onClick={()=>{handleClearFilter()}}>clear filter</button> */}
+    </div>
     </div>
   )
 }
