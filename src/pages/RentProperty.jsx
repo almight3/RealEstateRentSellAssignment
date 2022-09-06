@@ -37,7 +37,16 @@ function filterRentProperty(){
   
   
   if(byMoveInDate){
-  filterRentProperty = filterRentProperty.filter((property)=>(property.move_in_date >= byMoveInDate))
+  filterRentProperty = filterRentProperty.filter((property)=>{
+    let date1 = new Date(property.move_in_date);
+    let date2 = new Date(byMoveInDate);
+    console.log("date1",date1);
+    console.log("date2",date2)
+    if(date1 >= date2){
+      return true;
+    }
+    return false;
+  })
   }
   
   if(bySearchQuery){
@@ -65,7 +74,7 @@ const handelChange = ({selected}) =>{
          <SearchFilter pageDefault={setPage} />
          <FilterProperty pageDefault={setPage}/>
          <div className="property-container">
-         {filterRentProperty().length===0 ?<div><p className="property-notfound">Property you looking for is not found</p></div> : filterRentProperty().slice(pageVisited,pageVisited+propertyPerPage).map((property)=>(<SingleCard property={property} />))}
+         {filterRentProperty().length===0 ?<div><p className="property-notfound">Property you looking for is not found</p></div> : filterRentProperty().slice(pageVisited,pageVisited+propertyPerPage).map((property)=>(<SingleCard  key={property.property_id} property={property} />))}
          </div>
          <Pagination  pageCount={pageCount} pageChange={handelChange}/>
     </div>
